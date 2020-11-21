@@ -2,7 +2,7 @@
   <div class="pages-contact-us">
     <div class="pages-contact-us__main">
       <validation-observer v-slot="{ invalid }">
-        <form @submit.prevent="send()" autocomplete="off">
+        <form @submit.prevent="send()">
           <components-input
             class="pages-contact-us__main-input"
             :content.sync="user.name"

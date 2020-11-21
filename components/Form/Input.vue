@@ -100,6 +100,11 @@ export default {
 .components-input input::placeholder {
   opacity: 0.4;
 }
+.components-input input:-webkit-autofill {
+  -webkit-text-fill-color: #1E4F7E;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
 .components-input-btn {
   display: inline-block;
   border: none;
