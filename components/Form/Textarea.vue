@@ -85,6 +85,11 @@ export default {
 .components-textarea textarea::placeholder {
   opacity: 0.4;
 }
+.components-textarea textarea:-webkit-autofill {
+  -webkit-text-fill-color: #1E4F7E;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
 .components-textarea__header {
   display: flex;
   margin: 0 0 3px;
